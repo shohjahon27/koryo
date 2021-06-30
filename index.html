@@ -39,14 +39,24 @@
                         <a class="nav-link text-light" href="taomlar.html">Taomlar ro'yxati</a>
                     </li>
                     <li class="nav-item mr-4">
-                        <a class="nav-link text-light" href="manzil.html">Manzilimiz</a>
-                    </li>
-                    <li class="nav-item mr-4">
                         <a class="nav-link text-light" href="aloqa.html">Biz bilan a'loqa</a>
                     </li>
-                    <li class="nav-item mr-4">
-                        <a class="nav-link text-light" href="aloqa.html">valyuta konvertor</a>
-                    </li>
+                    <div class="dropdown mr-5">
+                        <a class="btn btn-transparent dropdown-toggle " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          yana
+                        </a>
+                      
+                        <div class="dropdown-menu bg-transparent" aria-labelledby="dropdownMenuLink">
+                           <li class="nav-item mr-4">
+                             <a class="nav-link text-light" href="manzil.html">Manzilimiz</a>
+                          </li>
+                          <li class="nav-item mr-4">
+                            <a class="nav-link text-light" href="vedios.html">vedios</a>
+                         </li>
+                        </div>
+                      </div>
+                   
+                   
                 </ul>
             </div>
         </nav>
@@ -685,17 +695,12 @@
     <!-- put custom styles here: .gcw_mainF79NrTR6x{}, .gcw_headerF79NrTR6x{}, .gcw_ratesF79NrTR6x{}, .gcw_sourceF79NrTR6x{} -->
     <!--End of Currency Converter widget by FreeCurrencyRates.com -->
 
-
-    <center>
-        <div style="position:relative;overflow:hidden;"  data-aos="fade-up" data-aos-duration="2000"><a
-                href="https://yandex.uz/maps/org/koryo_chicken/38322494930/?utm_medium=mapframe&utm_source=maps"
-                style="color:#eee;font-size:12px;position:absolute;top:0px;">Koryo Chicken</a><a
-                href="https://yandex.uz/maps/10335/tashkent/category/restaurant/184106394/?utm_medium=mapframe&utm_source=maps"
-                style="color:#eee;font-size:12px;position:absolute;top:14px;">Restoran Toshkentda</a><iframe
-                src="https://yandex.uz/map-widget/v1/-/CCUamWWQTD" width="86%" height="400" frameborder="1"
-                allowfullscreen="true" style="position:relative;"></iframe></div>
-    </center>
-
+    <div class="map">
+        <div style="position:relative;overflow:hidden;">
+            <a href="https://yandex.uz/maps/org/koryo_chicken/38322494930/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">
+                Koryo Chicken</a><a href="https://yandex.uz/maps/10335/tashkent/category/restaurant/184106394/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Restoran  Toshkentda</a>
+                <iframe src="https://yandex.uz/map-widget/v1/-/CCUeyDdb2C" width="86%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+        </div>
 
 
 
@@ -709,11 +714,89 @@
                 <h3>KORYO CHICKEN</h3>
                     <p>Biz sizga eng yaxshilarini ilinamiz</p>
                 </div>
-                <div class="col-lg-6">
-                    <form action="" method="post">
-                        <input type="email" name="email"><input type="submit" value="Subscribe">
+                <!-- Button trigger modal -->
+    <button type="button" class="button" data-toggle="modal" data-target="#exampleModal">
+       registratsiya
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-dark" id="exampleModalLabel">Registration Form</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group text-dark">
+                                    <label for="fio">First name</label>
+                                    <input type="text" class="form-control" id="fio" placeholder="name" />
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 text-dark">
+                                <div class="form-group">
+                                    <label for="phone">Last name</label>
+                                    <input type="text" class="form-control" id="phone" placeholder="Last name" />
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group text-dark">
+                                    <label for="exampleFormControlSelect2">Birth date</label>
+                                    <input type="date" class="form-control" id="exampleFormControlSelect2">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-groupga text-dark">
+                                    <label for="exampleFormControlSelect2"></label>
+                                    male <input type="radio" class="form-control" id="exampleFormControlSelect2">
+                                    Female <input type="radio" class="form-control" id="exampleFormControlSelect2">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group text-dark">
+                                    <label for="exampleFormControlSelect2">E-mail</label>
+                                    <input type="email" class="form-control" id="exampleFormControlSelect2"
+                                        placeholder="name@gmail.com">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group text-dark">
+                                    <label for="exampleFormControlSelect2">Phone number</label>
+                                    <input type="number" class="form-control" id="exampleFormControlSelect2"
+                                        placeholder="91 224 79 40">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group text-dark">
+                                    <label for="exampleFormControlTextarea1">Subject</label>
+                                    <!-- <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea> -->
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                        <option>Choose the option</option>
+                                        <option>Graduate</option>
+                                        <option>High school</option>
+                                        <option>Middle school</option>
+                                        <option>Primary school</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-left ml-4">
+                            <a href="#" class="btn btn-primary">registrate</a>
+                        </div>
                     </form>
                 </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
             </div>
         </div>
     </div>

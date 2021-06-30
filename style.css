@@ -250,7 +250,21 @@ h6{
 }
 
         
-    
+
+.form-groupga {
+  display: flex;
+  margin-top: 25px;
+
+}
+
+.button {
+  margin-top: 50px;
+  margin-right: 80px;
+  height: 40px;
+  background-color: greenyellow;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(20, 19, 19);
+}
         
     
 
@@ -406,7 +420,9 @@ h6{
   margin: 15px;
 }
 
-
+.map{
+  text-align: center;
+}
 
 
 
