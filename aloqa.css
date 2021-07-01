@@ -5,6 +5,15 @@ body{
 *{
     box-sizing: border-box;
 }
+
+.menu{
+  background: linear-gradient(to right, rgba(60, 65, 66, 0.8), 
+  rgba(0, 0, 0, 0.6)), url("img/manzil.jpg") center top no-repeat;
+  z-index: 0;
+  background-size: cover;
+  height: 700px;
+   
+}
 .h6{
     margin-top: 4vh;
     margin-left: 5vh;
