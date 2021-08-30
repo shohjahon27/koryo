@@ -42,6 +42,7 @@ h6{
 
 
     .swiper-container {
+      margin-left: 25px;
       width: 90%;
       height: 70%;
     }
