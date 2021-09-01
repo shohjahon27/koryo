@@ -28,6 +28,18 @@ body{
     padding-bottom: 5vh;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+.dayNightBtn  {
+  display:flex;
+  position: fixed;
+  z-index: 100;
+  margin-top: 360px;
+}
+.dayNightBtl{
+   display:flex;
+  position: fixed;
+  z-index: 100;
+  margin-top: 300px;
+}
 .table{
     max-width: 95%;
     margin-left: 2vh;
