@@ -14,16 +14,14 @@ body{
    
 }
 .dayNightBtn  {
-  display:flex;
   position: fixed;
   z-index: 100;
-  margin-top: 360px;
+  margin-top: 410px;
 }
 .dayNightBtl{
-   display:flex;
   position: fixed;
+  margin-top: 360px;
   z-index: 100;
-  margin-top: 300px;
 }
 .h6{
     color: white;
