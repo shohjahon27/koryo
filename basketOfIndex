@@ -4,71 +4,7 @@
                 <div class="dayNightBtl">
                 <input type="button" id="changeToDay" class="btn btn-success" value="Day">
                 </div>
-    <header class="menu">
-        <nav class="navbar navbar-expand-lg navbar-light navdesign">
-            <img class="mt-4 ml-3" src="koryoimg/logo.png" alt="" width="60px">
-            <h6>KORYO CHICKEN</h6>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon bg-light"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                <ul class="navbar-nav mr-4">
-                    <li class="nav-item active mr-4">
-                        <a class="nav-link text-light" href="#">Bosh sahifa</a>
-                    </li>
-                    <li class="nav-item mr-4">
-                        <a class="nav-link text-light" href="taomlar.html">Taomlar ro'yxati</a>
-                    </li>
-                    <li class="nav-item mr-4">
-                        <a class="nav-link text-light" href="aloqa.html">Biz bilan a'loqa</a>
-                    </li>
-                    <div class="dropdown mr-5">
-                        <a class="btn btn-transparent dropdown-toggle  text-light" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          yana
-                        </a>
-                      
-                        <div class="dropdown-menu bg-transparent" aria-labelledby="dropdownMenuLink">
-                           <li class="nav-item mr-4">
-                             <a class="nav-link text-light" href="manzil.html">Manzilimiz</a>
-                          </li>
-                          <li class="nav-item mr-4">
-                            <a class="nav-link text-light" href="vedios.html">vedios</a>
-                         </li>
-                        </div>
-                      </div>  
-                </ul>
-            </div>
-        </nav>
-        <section id="homesection">
-            <div class="container">
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide" data-aos="fade-up" data-aos-duration="2000"><b class="dolor">Koryo
-                                Chicken</b>
-                            Assalomu alaykum azizlar <br> <span style="color: yellow; font-weight: bold;"> KORYO CHICKEN
-                            </span>kafe sining rasmiy saytiga xush kelibsiz...
-                        </div>
-                        <div class="swiper-slide"><b class="dolor">Lazzatli Taomlar</b>
-                            Taomlarimizga keladigan <br> bo'lsak ular <br>juda mazali,
-                            shirin taomlarimizni <br> asosiy qismi <br>
-                            tovuq go'shtidan qilingan mazali <br>
-                            CHICKEN lar tashkil etadi...
-                        </div>
-                    </div>
 
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination"></div>
-
-                    <!-- Add Arrows -->
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-                </div>
-            </div>
-           
-        </section>
-              
-    </header>
 
     
     <!--image card layout start-->
