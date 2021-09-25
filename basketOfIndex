@@ -599,20 +599,7 @@
 
 
 
-    <!-- dollar kursi/online -->
 
-    <div id='gcw_mainF79NrTR6x' class='gcw_mainF79NrTR6x'  data-aos="fade-up" data-aos-duration="1000"></div>
-    <a id='gcw_siteF79NrTR6x'></a>
-    <script>function reloadF79NrTR6x() { var sc = document.getElementById('scF79NrTR6x'); if (sc) sc.parentNode.removeChild(sc); sc = document.createElement('script'); sc.type = 'text/javascript'; sc.charset = 'UTF-8'; sc.async = true; sc.id = 'scF79NrTR6x'; sc.src = 'https://freecurrencyrates.com/en/widget-horizontal?iso=USD-UZS-EUR-CNY&df=1&p=F79NrTR6x&v=fits&source=fcr&width=900&width_title=225&firstrowvalue=100&thm=dddddd,eeeeee,E78F08,F6A828,FFFFFF,cccccc,ffffff,1C94C4,000000&title=Valyuta%20konvertori&tzo=-300'; var div = document.getElementById('gcw_mainF79NrTR6x'); div.parentNode.insertBefore(sc, div); } reloadF79NrTR6x();</script>
-    <!-- put custom styles here: .gcw_mainF79NrTR6x{}, .gcw_headerF79NrTR6x{}, .gcw_ratesF79NrTR6x{}, .gcw_sourceF79NrTR6x{} -->
-    <!--End of Currency Converter widget by FreeCurrencyRates.com -->
-
-    <div class="map">
-        <div style="position:relative;overflow:hidden;">
-            <a href="https://yandex.uz/maps/org/koryo_chicken/38322494930/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">
-                Koryo Chicken</a><a href="https://yandex.uz/maps/10335/tashkent/category/restaurant/184106394/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Restoran  Toshkentda</a>
-                <iframe src="https://yandex.uz/map-widget/v1/-/CCUeyDdb2C" width="86%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
-        </div>
 
 
 
