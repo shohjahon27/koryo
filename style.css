@@ -327,14 +327,15 @@ h6 {
   z-index: 100;
 }
 /*======================================
-//--//-->   PORTFOLIO
+//--//-->   menu cards
 ======================================*/
 .work-box {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
-  background-color: white;
+  background-color: rgb(248, 242, 242);
+  height: 350px;
 }
 
 .work-box:hover img {
@@ -345,6 +346,7 @@ h6 {
 .work-img {
   display: block;
   overflow: hidden;
+  padding: 10px;
 }
 
 .work-img img {
